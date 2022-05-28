@@ -5,7 +5,7 @@ export default function Work() {
   return (
     <div
       id="work"
-      className="bg-gray-900 flex flex-col  items-center min-h-screen w-full "
+      className=" flex flex-col  items-center min-h-screen w-full "
     >
       <h1>work</h1>
       <Card rev="reverse" />
