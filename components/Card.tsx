@@ -7,7 +7,7 @@ interface Props {
 export default function Card({ rev }: Props) {
   return (
     <div
-      className={`flex-row-${rev} flex items-end  my-3 max-w-5xl flex-wrap md:flex-nowrap px-4`}
+      className={`${rev} flex items-end  my-3 max-w-5xl flex-wrap md:flex-nowrap px-4`}
     >
       <div>
         <img

@@ -8,8 +8,9 @@ export default function About() {
       className="h-screen flex relative  items-center overflow-hidden justify-center w-full flex-wrap container mx-auto px-4"
     >
       <div className="max-w-xl relative z-10  flex justify-center items-start flex-col text-start w-full h-full py-10">
-        <p className="uppercase">A bit about me</p>
-
+        <h1 className="uppercase text-start text-3xl py-5 font-WorkSansSemiBold text-gray-500">
+          A bit <span className="text-white">about me</span>
+        </h1>
         <h1 className="max-w-3xl text-3xl text-gray-500">
           I am a UI/UX designer who is passionate about creating{" "}
           <span className="px-1 text-white">
