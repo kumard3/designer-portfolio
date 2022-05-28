@@ -3,12 +3,10 @@ import Card from "./Card";
 
 export default function Work() {
   const data = [
-    "flex-row-reverse",
-    "",
-    "flex-row-reverse",
-    "",
-    "flex-row-reverse",
-    "",
+    { flex: "flex-row-reverse", image: "/1.png" },
+    { flex: "", image: "/2.png" },
+    { flex: "flex-row-reverse", image: "/placeholder.png" },
+    { flex: "", image: "/3.png" },
   ];
   return (
     <div id="work" className="min-h-screen px-4">
@@ -17,7 +15,7 @@ export default function Work() {
       </h1>
       <div className=" flex flex-col  items-center  w-full ">
         {data.map((n, index) => {
-          return <Card key={index} rev={n} />;
+          return <Card key={index} rev={n.flex} image={n.image} />;
         })}
       </div>
     </div>

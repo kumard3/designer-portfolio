@@ -2,16 +2,17 @@
 import React from "react";
 interface Props {
   rev: string;
+  image: string;
 }
 
-export default function Card({ rev }: Props) {
+export default function Card({ rev, image }: Props) {
   return (
     <div
       className={`${rev} flex items-end  my-3 max-w-5xl flex-wrap md:flex-nowrap px-4`}
     >
       <div>
         <img
-          src="placeholder.png"
+          src={image}
           alt="placeholder.png"
           width="500"
           height="500"
